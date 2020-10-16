@@ -26,6 +26,7 @@ class App extends Component {
           <CircleSelector 
           handleColorSelection={this.handleColorSelection}
           circles={circles}
+          selectedCircle={this.state.selectedCircle}
           />
           <Circles 
           selectedCircle={this.state.selectedCircle}

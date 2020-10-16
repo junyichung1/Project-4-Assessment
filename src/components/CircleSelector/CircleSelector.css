@@ -26,9 +26,9 @@
   }
   
   /* Adding a class of 'selected' to the selected button dynamically is secret sauce */
-  .CircleSelector button.selected {
-    background-color: white;
-    color: limegreen;
+  .CircleSelector div.selected {
+    background-color: limegreen;
+    color: purple;
     border: none;
     cursor: default;
   }
